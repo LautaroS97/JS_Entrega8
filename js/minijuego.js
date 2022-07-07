@@ -85,3 +85,10 @@ function mostrarRival(lista, personaje){
 const oponente = mostrarRival(personajes, rivalAsignado);
 let cartaRival = oponente.carta;
 document.getElementById("oponente").src = cartaRival;
+
+//Comenzar (PENDIENTE!!!)
+
+//Líneas de código con operadores avanzados
+
+this.puntosVitales === 0 && console.log(this.nombre+" ha muerto en la batalla.")
+this.puntosPoder === 0 && console.log(this.nombre+" ha perdido toda su energía y no puede continuar.")
